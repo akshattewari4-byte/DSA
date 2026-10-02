@@ -37,8 +37,6 @@ public:
 
                 q.pop();
 
-                // Normalize index
-                //index = index - start;
 
                 if (curr->left) {
                     q.push({curr->left, 2 * index + 1});
